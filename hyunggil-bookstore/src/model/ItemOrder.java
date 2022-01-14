@@ -5,6 +5,9 @@ package model;
 
 public final class ItemOrder {
 
+    /** Quantity of items. */
+    private int myQuantity;
+    
 
     public ItemOrder(final Item theItem, final int theQuantity) {
         
